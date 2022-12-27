@@ -7,6 +7,7 @@ from MachineLearning import LeadProcessing
 
 MODEL = SentenceTransformer('paraphrase-MiniLM-L6-v2')
 
+
 class AI():
 
     def __init__(self, stt_api="houndify", voice=0) -> None:

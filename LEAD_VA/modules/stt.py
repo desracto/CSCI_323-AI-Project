@@ -8,7 +8,7 @@ import numpy as np
 from KEYS import *
 
 MODEL = SentenceTransformer('paraphrase-MiniLM-L6-v2')
-YES = ['yep', 'yea', 'yes', 'yeap', 'yeah', 'affirmative', 'fine', 'okay', 'true', 'alright', 'all right', 'aye', 'by all means', 'certainly', 'definitely', 'exactly', 'gladly', 'most assuredly', 'naturally', 'of course', 'ofcourse', 'positively', 'sure thing', 'surely', 'undoubtedly', 'very well', 'without fail']
+YES = ['yeahh', 'yep', 'yea', 'yes', 'yeap', 'yeah', 'affirmative', 'fine', 'okay', 'true', 'alright', 'all right', 'aye', 'by all means', 'certainly', 'definitely', 'exactly', 'gladly', 'most assuredly', 'naturally', 'of course', 'ofcourse', 'positively', 'sure thing', 'surely', 'undoubtedly', 'very well', 'without fail']
 YES_EMBEDS = MODEL.encode(YES)
 
 class ConversationAttempt(Exception):
