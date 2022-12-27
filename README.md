@@ -5,4 +5,4 @@ It is a rough pseudo-code as of right now. It's purpose is to be supplied with a
 
 ### Known bugs:
   -Currently facing an issue deploying the Machine Learning model. <br />
-  -The program doesn't actually make the calls. 
+  -The program doesn't actually make the calls. This will be changed later with Twilio or Postman Libraries
