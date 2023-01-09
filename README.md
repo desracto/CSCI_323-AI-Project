@@ -1,5 +1,5 @@
 # CSCI_323-AI-Project
-This is an AI project that was developed by Mohammed Ejazz, Hiba Gohar, Maryam Zia and Mohammed Nihal, Dani Terinani for the course CSCI-323 in the University of Wollongong in Dubai. 
+This is an AI project that was developed by Mohammed Ejazz, Hiba Gohar, Maryam Zia, Mohammed Nihal and Dani Terinani for the course CSCI-323 in the University of Wollongong in Dubai. 
 
 It is a rough pseudo-code as of right now. It's purpose is to be supplied with a set of potential student details and have the AI call them and talk to them. The call details such as Question asked by User, Questioned asked by Virtual Assistant, Duration of call, Sentimental Score is recorded into a csv and is then processed using ML. This then allows us to see who is a Hot lead and who is a Cold lead for potential students.
 
